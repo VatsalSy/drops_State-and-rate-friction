@@ -1,3 +1,9 @@
+# drops_State-and-rate-friction
+
+This repository is forked from [https://github.com/cwlindeman/drops.git](https://github.com/cwlindeman/drops.git) which documents the data and codes used for [[2023-Chole and Sidney Nagel]_State-and-rate friction in contact-line dynamics.pdf](https://doi.org/10.1103/PhysRevE.107.065111). In the paper, the authors have proposed a new overdamped dynamical model of contact-line motion is used to capture theexperimentally observed behavior for water on the silanized glass, where the phenomenological drag coefficientand the assumed equilibrium contact angle are the only inputs. The model is based on an analogy to solid-solid friction which is both intuitive and relevant. In this repository, I have added one extra file: [ContactLineModels.ipynb](ContactLineModels.ipynb) to compare the model presented in this paper with other models in the literature. All these models seems to be in agreement with a wide range of parameters: although with different contact line mobilities. This similarity comes from the similar nature of the forcing term used in these models -- for details see the Jupyter notebook.
+
+The original README.md is as follows.
+
 # drops
 Data from drop aspiration experiments and code needed to plot and analyze it
 
